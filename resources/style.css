@@ -1,0 +1,38 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+body {
+  width: 100%;
+}
+
+.title {
+  width: 960px;
+  height: auto;
+  background-color: cadetblue;
+  margin: 1rem auto 0 auto;
+}
+
+.title img {
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+.title h3 {
+  display: inline-block;
+  font-size: 1rem;
+  color: white;
+}
+
+.title nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.title a {
+  color: white;
+}
