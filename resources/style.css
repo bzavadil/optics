@@ -9,30 +9,63 @@ body {
 }
 
 .title {
+  height: 3rem;
   width: 960px;
-  height: auto;
   background-color: cadetblue;
   margin: 1rem auto 0 auto;
 }
 
 .title img {
+  display: inline-block;
   height: 1.5rem;
-  padding: 1rem 1rem 1rem 2rem;
+  padding: .75rem 1rem .75rem 2rem;
+  float: left;
 }
 
-.title h3 {
+.logotext {
   display: inline-block;
   font-size: 1rem;
   color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  float: left;
 }
 
 .title nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
+  display: inline-block;
+  padding: 1rem 0 1rem 0;
+  float: right;
 }
 
 .title a {
   color: white;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0 2rem 0 2rem;
+}
+
+.firstsection {
+  height: 30rem;
+  width: 100%;
+  background-image: url("./images/glasses-bg.png");
+  background-size: cover;
+  position: relative;
+}
+
+.firstsectiontext {
+  background-color: white;
+  height: 5rem;
+  width: 35rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-top: 10rem;
+  font-weight: bold;
+  float: right;
+  margin-right: 10rem;
+}
+
+.firstsectiontext h2 {
+  padding: 1.5rem 5rem;
 }
